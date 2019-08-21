@@ -17,7 +17,7 @@ function mapadoCustomSearch() {
     function addSearchBox() {
         console.log('addSearchBox()');
         searchBox = document.createElement('INPUT');
-        searchBox.placeholder = "\ud83d\udd0e Rechercher un titre ou un auteur...";
+        searchBox.placeholder = "\ud83d\udd0e Rechercher un évènement...";
         
         searchBox.id = 'txtSearch';
         searchBox.style = `margin-bottom: 10px;width: 90%;font-size: 25px; margin-left: auto; margin-right: auto; display: flex; padding-top:5px; padding-bottom:5px;`;
