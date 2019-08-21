@@ -7,6 +7,7 @@ searchArray = [];
 
 function mapadoCustomSearch() {
     function init() {
+        if(document.location !=='https://delecritalecran.mapado.com/') return;
         console.log('init()');
         htmlSearchContainer = document.querySelector('.minisite-title');
         htmlBoxes = document.querySelectorAll('.mb4');
