@@ -33,5 +33,6 @@ function buildSearchArray(items) {
 }
 
 window.addEventListener("DOMContentLoaded", (event) => {
+    console.log('DOMContentLoaded');
     init();
 });
