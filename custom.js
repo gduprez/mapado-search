@@ -20,6 +20,7 @@ function addSearchBox() {
 }
 
 function buildSearchArray(items) {
+    console.log('buildSearchArray()');
     items.forEach((box) => {
         if (box.innerText) {
             let txt = box.innerText.toLowerCase();
@@ -33,6 +34,6 @@ function buildSearchArray(items) {
 }
 
 window.addEventListener("DOMContentLoaded", (event) => {
-    console.log('DOMContentLoaded');
+    console.log('DOMContentLoaded event');
     init();
 });
