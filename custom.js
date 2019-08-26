@@ -66,6 +66,11 @@ function mapadoCustomSearch() {
     function hasMatch(searchValue, currentValue) {
         return (currentValue.search(searchValue) > -1);
     }
-    window.addEventListener("DOMContentLoaded", init);
+    //window.addEventListener("DOMContentLoaded", init);
+    try{
+        init();
+    }catch(e){
+        console.error(e);
+    }
 }
 mapadoCustomSearch();
